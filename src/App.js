@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
-import CounterGroupRedux from "./components/CounterGroupRedux";
+import CounterGroup from "./components/CounterGroup";
 
 function App() {
     return (
         <div className="App">
-            {/* <header className="App-header">
-      </header> */}
-            <CounterGroupRedux/>
+            <CounterGroup/>
         </div>
     );
 }

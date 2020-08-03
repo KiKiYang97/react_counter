@@ -19,18 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce4e8d2c-9d82-41b3-b4b6-4bf3acd3d3d3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CounterGroupRedux.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CounterRedux.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/react-counter.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ce4e8d2c-9d82-41b3-b4b6-4bf3acd3d3d3" name="Default" comment="[redux][Kiki]refactor: using redux refactor project about Counter.index CounterGroup.index,adjust code style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Counter/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Counter/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CounterGroup/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CounterGroup/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CounterGroupRedux.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CounterRedux.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,8 +98,16 @@
       <updated>1596456284951</updated>
       <workItem from="1596456288321" duration="10000" />
       <workItem from="1596456493699" duration="683000" />
-      <workItem from="1596457555735" duration="9594000" />
+      <workItem from="1596457555735" duration="10851000" />
     </task>
+    <task id="LOCAL-00001" summary="[redux][Kiki]refactor: using redux refactor project">
+      <created>1596469070668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596469070668</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +127,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[redux][Kiki]refactor: using redux refactor project" />
+    <MESSAGE value="[redux][Kiki]refactor: using redux refactor project about Counter.index CounterGroup.index,adjust code style" />
+    <option name="LAST_COMMIT_MESSAGE" value="[redux][Kiki]refactor: using redux refactor project about Counter.index CounterGroup.index,adjust code style" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1596457907530">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -140,5 +152,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596457907529" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1596469126784">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596469126784" />
   </component>
 </project>

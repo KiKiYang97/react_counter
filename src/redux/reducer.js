@@ -20,6 +20,8 @@ export function counterReducer(state, action) {
             state.total = state.total + action.number;
             break;
         }
+        default :
+            break;
     }
     return state;
 }
