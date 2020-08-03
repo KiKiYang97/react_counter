@@ -37,7 +37,6 @@ class CounterGroup extends React.Component {
                     new Array(this.state.number).fill(0).map((value, index) => 
                         <Counter key ={index} 
                         total = {this.state.total} 
-                        onInputChange = {this.onInputChange}
                         callback = {this.callback}/> 
                     )
                 }

@@ -7,7 +7,7 @@ class Counter extends React.Component {
         }
     }
     static getDerivedStateFromProps(nextsProps,prevState) {
-        if(nextsProps.total == 0){
+        if(nextsProps.total === 0){
             return {number : nextsProps.total}
         }
         return null;
