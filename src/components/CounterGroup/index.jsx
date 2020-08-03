@@ -10,7 +10,7 @@ class CounterGroup extends React.Component {
 
             <div>
                 {
-                    new Array(6).fill(0).map((value, index) => 
+                    new Array(this.props.value).fill(0).map((value, index) => 
                         <Counter key ={index} /> 
                     )
                 }
