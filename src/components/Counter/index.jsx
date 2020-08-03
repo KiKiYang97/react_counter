@@ -12,9 +12,7 @@ class Counter extends React.Component {
     }
 
     componentWillUnmount() {
-        this.setState = (state, callback) => {
-            return
-        }
+        this.setState = () => null
     }
 
     componentDidMount() {
