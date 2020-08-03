@@ -20,13 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce4e8d2c-9d82-41b3-b4b6-4bf3acd3d3d3" name="Default" comment="[redux][Kiki]refactor: using redux refactor project about Counter.index CounterGroup.index,adjust code style">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Counter/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Counter/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CounterGroup/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CounterGroup/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CounterGroupRedux.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CounterRedux.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +92,7 @@
       <updated>1596456284951</updated>
       <workItem from="1596456288321" duration="10000" />
       <workItem from="1596456493699" duration="683000" />
-      <workItem from="1596457555735" duration="10851000" />
+      <workItem from="1596457555735" duration="10913000" />
     </task>
     <task id="LOCAL-00001" summary="[redux][Kiki]refactor: using redux refactor project">
       <created>1596469070668</created>
@@ -107,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596469070668</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[redux][Kiki]refactor: using redux refactor project about Counter.index CounterGroup.index,adjust code style">
+      <created>1596470228986</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596470228986</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
