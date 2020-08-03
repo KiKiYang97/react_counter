@@ -18,11 +18,13 @@ class Counter extends React.Component {
         this.setState((preState) =>({
             number : preState.number + 1
         }));
+        this.props.callback(1)
     }
     onReduceClick = () => {
         this.setState((preState) => ({
             number : preState.number - 1
-        }))
+        }));
+        this.props.callback(-1)
     }
     render(){
         return(
