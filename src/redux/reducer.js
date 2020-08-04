@@ -1,6 +1,6 @@
 import {DECREASE, INCREASE, INIT, TOTAL} from "./action";
 
-export function counterReducer(state, action) {
+export default function counterReducer(state, action) {
     switch (action.type) {
         case INCREASE : {
             state.counters[action.index]++;

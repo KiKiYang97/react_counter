@@ -16,22 +16,31 @@ class Counter extends React.Component {
     }
 
     componentDidMount() {
-        store.subscribe(
-            () => {
-                this.setState({
-                    count: store.getState().counters[this.props.index]
-                })
-            }
-        )
+        // store.subscribe(
+        //     () => {
+        //         this.setState({
+        //             count: store.getState().counters[this.props.index]
+        //         })
+        //     }
+        // )
+        this.setState({
+            count: this.props.counters[this.props.index]
+        })
     }
 
     onIncreaseClick = () => {
-        store.dispatch({type: INCREASE, index: this.props.index})
-        store.dispatch({type: TOTAL, total: this.props.total, number: 1})
+        // store.dispatch({type: INCREASE, index: this.props.index})
+        // store.dispatch({type: TOTAL, total: this.props.total, number: 1})
+        this.props.increase(this.props.index)
+        let number = 1
+        this.props.total(number)
     }
     onReduceClick = () => {
-        store.dispatch({type: DECREASE, index: this.props.index})
-        store.dispatch({type: TOTAL, total: this.props.total, number: -1})
+        // store.dispatch({type: DECREASE, index: this.props.index})
+        // store.dispatch({type: TOTAL, total: this.props.total, number: -1})
+        this.props.decrease(this.props.index)
+        let number = -1
+        this.props.total(number)
     }
 
     render() {

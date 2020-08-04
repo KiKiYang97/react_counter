@@ -10,42 +10,46 @@ class CounterGroup extends React.Component {
             length: 0,
             total: 0
         }
-        store.dispatch({type: INIT, length: 0})
+        this.props.initAtFirst()
+        // store.dispatch({type: INIT, length: 0})
     }
 
     componentDidMount() {
-        store.subscribe(
-            () => {
-                this.setState({
-                    total: store.getState().total
-                })
-            }
-        )
+        // store.subscribe(
+        //     () => {
+        //         this.setState({
+        //             total: store.getState().total
+        //         })
+        //     }
+        // )
+        this.setState({
+            total: this.props.total(this.state.length)
+        })
     }
 
     onInputChange = (e) => {
-        let length = Number(e.target.value);
-        store.dispatch({type: INIT, length})
+        let newlength = Number(e.target.value);
+        // store.dispatch({type: INIT, length})
+        this.props.init(newlength)
         this.setState({
-            length
+            length : newlength
         })
     }
 
 
     render() {
         return (
-
             <div>
                 <div>
                     <p>number of contents :</p><input onChange={this.onInputChange}></input>
                 </div>
                 <div>
-                    <p>total:{this.state.total}</p>
+                    <p>total:{this.props.total}</p>
                 </div>
                 {
                     new Array(this.state.length).fill(0).map((value, index) =>
                         <Counter key={index}
-                                 total={this.state.total}
+                                 total={this.props.total}
                                  index={index}/>
                     )
                 }
