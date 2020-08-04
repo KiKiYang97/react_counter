@@ -1,13 +1,22 @@
 import {DECREASE, INCREASE, INIT, TOTAL} from "./action";
 
-export default function counterReducer(state, action) {
+const defaultState = {
+    counters: [],
+    total: 0
+}
+export default function counterReducer(state = defaultState, action) {
+    // let newState = {
+    //     counters:state.counters,
+    //     total:state.total
+    // }
+    let newState = {...state}
     switch (action.type) {
         case INCREASE : {
-            state.counters[action.index]++;
+            newState.counters[action.index]++;
             break;
         }
         case DECREASE : {
-            state.counters[action.index]--;
+            newState.counters[action.index]--;
             break;
         }
         case INIT: {
@@ -17,11 +26,11 @@ export default function counterReducer(state, action) {
             }
         }
         case TOTAL: {
-            state.total = state.total + action.number;
+            newState.total = newState.total + action.number;
             break;
         }
         default :
             break;
     }
-    return state;
+    return newState;
 }

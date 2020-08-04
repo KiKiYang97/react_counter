@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import CounterGroup from "./components/CounterGroup";
-import ComponentContainer from './ComponentContainer/index';
+import ComponentContainer from './ComponentContainer/CounterGroupContainer';
 
 function App() {
     return (
         <div className="App">
             <ComponentContainer/>
+
         </div>
     );
 }
